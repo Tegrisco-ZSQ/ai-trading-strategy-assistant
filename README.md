@@ -1,1 +1,1 @@
-# AI-Trading-Strategy-Generator
+# ai-trading-strategy-assistant

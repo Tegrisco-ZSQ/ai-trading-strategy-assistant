@@ -47,6 +47,7 @@ In your `.env.local` file, add or modify:
 
 ```env
 OPENAI_MODEL=gpt-5.2
+```
 
 ## Setup Instructions
 

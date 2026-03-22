@@ -33,7 +33,7 @@ A modern AI-powered trading strategy assistant that combines quantitative signal
 - OpenAI API
 - Zod (validation)
 
-## 🤖 Model Configuration
+## Model Configuration
 
 This application uses OpenAI's latest model by default:
 

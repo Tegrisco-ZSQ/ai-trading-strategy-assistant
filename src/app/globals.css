@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #020617;
+  --foreground: #e2e8f0;
+  --accent: #3b82f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background:
+    radial-gradient(circle at 10% 0%, rgba(59, 130, 246, 0.12), transparent 34%),
+    radial-gradient(circle at 88% 22%, rgba(30, 41, 59, 0.32), transparent 42%),
+    var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+.strategy-markdown {
+  line-height: 1.6;
+}
+
+.strategy-markdown h1,
+.strategy-markdown h2,
+.strategy-markdown h3 {
+  margin: 0.1rem 0 0.65rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.strategy-markdown p {
+  margin: 0.5rem 0;
+  color: #cbd5e1;
+}
+
+.strategy-markdown ul,
+.strategy-markdown ol {
+  margin: 0.45rem 0;
+  padding-left: 1.1rem;
+  color: #cbd5e1;
+}
+
+.strategy-markdown li {
+  margin: 0.2rem 0;
+}
+
+.strategy-markdown strong {
+  color: #f8fafc;
+}

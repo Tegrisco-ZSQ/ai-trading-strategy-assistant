@@ -33,6 +33,21 @@ A modern AI-powered trading strategy assistant that combines quantitative signal
 - OpenAI API
 - Zod (validation)
 
+## 🤖 Model Configuration
+
+This application uses OpenAI's latest model by default:
+
+- Default model: `gpt-5.2`
+
+The model can be configured via environment variables.
+
+### Change the model
+
+In your `.env.local` file, add or modify:
+
+```env
+OPENAI_MODEL=gpt-5.2
+
 ## Setup Instructions
 
 ### 1. Clone the repository
